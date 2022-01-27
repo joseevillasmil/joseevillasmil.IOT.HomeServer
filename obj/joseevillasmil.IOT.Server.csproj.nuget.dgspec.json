@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\joseevillasmil\\Documentos\\GitHub\\joseevillasmil.IOT.HomeServer\\joseevillasmil.IOT.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\joseevillasmil\\Documentos\\GitHub\\joseevillasmil.IOT.HomeServer\\joseevillasmil.IOT.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\joseevillasmil\\Documentos\\GitHub\\joseevillasmil.IOT.HomeServer\\joseevillasmil.IOT.Server.csproj",
+        "projectName": "IOTServer",
+        "projectPath": "D:\\joseevillasmil\\Documentos\\GitHub\\joseevillasmil.IOT.HomeServer\\joseevillasmil.IOT.Server.csproj",
+        "packagesPath": "C:\\Users\\Josee\\.nuget\\packages\\",
+        "outputPath": "D:\\joseevillasmil\\Documentos\\GitHub\\joseevillasmil.IOT.HomeServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://softlandchile.pkgs.visualstudio.com/_packaging/Softland/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\joseevillasmil\\Documentos\\GitHub\\joseevillasmil.IOT.Communication\\joseevillasmil.IOT.Communication.csproj": {
+                "projectPath": "D:\\joseevillasmil\\Documentos\\GitHub\\joseevillasmil.IOT.Communication\\joseevillasmil.IOT.Communication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.Data.Tables": {
+              "target": "Package",
+              "version": "[12.4.0, )"
+            },
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

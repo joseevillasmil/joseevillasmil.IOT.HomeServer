@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>IOTServer</AssemblyName>
+    <RootNamespace>joseevillasmil.IOT.Server</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Data.Tables" Version="12.4.0" />
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.5.1" />
+    <PackageReference Include="BCrypt.Net-Core" Version="1.6.0" />
+    <PackageReference Include="Microsoft.Azure.ServiceBus" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\joseevillasmil.IOT.Communication\joseevillasmil.IOT.Communication.csproj" />
+  </ItemGroup>
+
+</Project>
